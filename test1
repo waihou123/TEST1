@@ -1,0 +1,63 @@
+QUESTION 1
+import java.util.*;
+public class DisplayMessage {
+
+    public static void main (String[] args){
+    
+    System.out.println("I love PROGRAMMING very much!");
+    }
+}
+
+
+QUESTION 2
+import java.util.*;
+public class DisplayData{
+
+    public static void main (String[] args){
+    
+    Scanner input = new Scanner(System.in);
+    double num1, num2, num3, sum, avg, multi;
+    
+    System.out.print("Enter number 1: ");
+    num1 = input.nextDouble();
+    
+    System.out.print("Enter number 2: ");
+    num2 = input.nextDouble();
+
+    System.out.print("Enter number 3: ");
+    num3 = input.nextDouble();
+    
+    sum = num1 + num2 + num3;
+    avg = sum/3;
+    multi = num1 * num2 * num3;
+    
+    System.out.printf("Sum is %.2f%n", sum);
+    System.out.printf("Average is %.2f%n", avg);
+    System.out.printf("Multiply is %.2f%n", multi);
+    
+    }
+}
+    
+
+QUESTION 3
+import java.util.*;
+public class EqualString {
+
+    public static void main (String[] args){
+    
+    Scanner input = new Scanner(System.in);
+    System.out.print("Enter String A: ");
+    String A = input.next();
+    System.out.print("Enter String B: ");
+    String B = input.next();
+
+        
+    if (A.equals(B)) {
+      System.out.println("String A are equal to string B");
+      }
+      
+      else{
+      System.out.println("String A is not equal to String B");
+      }
+    }
+}
